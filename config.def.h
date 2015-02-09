@@ -48,7 +48,7 @@ static unsigned int blinktimeout = 800;
 static int bellvolume = 0;
 
 /* TERM value */
-static char termname[] = "st-256color";
+static char termname[] = "st-git-256color";
 
 static unsigned int tabspaces = 8;
 
