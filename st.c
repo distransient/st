@@ -968,8 +968,8 @@ getsel(void) {
 		 * st.
 		 * FIXME: Fix the computer world.
 		 */
-		if((y < sel.ne.y || lastx >= linelen) && !(last->mode & ATTR_WRAP))
-			*ptr++ = '\n';
+		if(y < sel.ne.y || lastx >= linelen)
+      *ptr++ = '\n';
 	}
 	*ptr = 0;
 	return str;
